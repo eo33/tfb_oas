@@ -2,3 +2,17 @@ site_name: The Furniture Bros Docs
 theme:
   name: material
   language: en
+
+plugins:
+  - search
+  - neoteroi.mkdocsoad:
+      use_pymdownx: true
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - css/mkdocsoad.css
