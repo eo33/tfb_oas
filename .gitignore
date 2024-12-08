@@ -1,0 +1,11 @@
+# Ignore the Procfile (used by platforms like Heroku)
+Procfile
+
+# Ignore the requirements.txt file (used for deployment)
+requirements.txt
+
+# Ignore the runtime.txt file (used for deployment)
+runtime.txt
+
+# Ignore the site/ directory (for temp site)
+site/
