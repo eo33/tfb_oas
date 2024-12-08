@@ -40,3 +40,9 @@ mkdocs gh-deploy
 - render_swagger
 
 ## Deployed site:
+
+https://docs2.thefurniturebros.com/
+
+Checkout the docs site build with Gitbook here:
+
+https://docs.thefurniturebros.com/
