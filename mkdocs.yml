@@ -10,7 +10,7 @@ plugins:
       allow_arbitrary_locations: true
 
 nav:
-  - Introduction: ./start/introduction.md
+  - Introduction: index.md
   - Get Started: ./start/get-started.md
   - Authentication: ./start/authentication.md
   - Making a request: ./start/making-a-request.md
