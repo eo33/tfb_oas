@@ -34,6 +34,8 @@ mkdocs gh-deploy
                 api-terms.md    # The terminologies for the API.
                 ...             # The rest of the glossary pages
             ...                 # The rest of the starting pages content.
+    Procfile                    # Configuration file for deployment to Heroku.
+    requirements.txt            # Dependencies for application.
 
 ## Plugins
 
