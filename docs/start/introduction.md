@@ -13,7 +13,7 @@ description: This page introduces The Furniutre Bros API.
 
 The Furniture Bros API provides all the tools you need to seamlessly interact with our application and unlock its full functionality.&#x20;
 
-This documentation assumes you have some basics about [Rest API](introduction/making-a-request.md). If you are new, you can start from the [Get Started](introduction/get-started.md) page.&#x20;
+This documentation assumes you have some basics about [Rest API](). If you are new, you can start from the [Get Started]() page.&#x20;
 
 ### 🤖 Postman&#x20;
 
@@ -21,7 +21,7 @@ The fastest way to start using the API is by using Postman. If you are already f
 
 [![Run In Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/40166625-6cbe30e8-5760-4132-9411-55a3fa300d77?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D40166625-6cbe30e8-5760-4132-9411-55a3fa300d77%26entityType%3Dcollection%26workspaceId%3D7fcc6d1e-d254-4162-98bf-8e40f5113547)
 
-Some endpoints are public, some require an API key, and others need admin privileges. Learn more about [authentication ](introduction/authentication.md)here.
+Some endpoints are public, some require an API key, and others need admin privileges. Learn more about [authentication ]()here.
 
 ### 🏃 Quick start
 
@@ -31,7 +31,7 @@ You can also interact with the API directly in this site. Here's how to do so:
 2. **Explore Endpoints**: Dive into the detailed[ API Reference](https://docs.thefurniturebros.com/api-endpoints) for all available functionality.&#x20;
 3. **Start Building**: Use the provided examples to make your first API call.
 
-The API follows REST principles, uses JSON or form-data, and responds with standard HTTP codes. For more information, check out the [Making a request](introduction/making-a-request.md) page.&#x20;
+The API follows REST principles, uses JSON or form-data, and responds with standard HTTP codes. For more information, check out the [Making a request]() page.&#x20;
 
 ### 📁 Endpoint categories
 
@@ -46,16 +46,16 @@ The endpoints are grouped into the following categories for ease of navigation:
 
 &#x20;<mark style="color:red;">\*Note: Admin access required.</mark>&#x20;
 
-Each of these categories has it's own use cases for your needs. Learn more about them by visiting the [Functionalities ](introduction/functionalities.md)page.&#x20;
+Each of these categories has it's own use cases for your needs. Learn more about them by visiting the [Functionalities ]()page.&#x20;
 
-The API docs may include technical terms specific to their functionality (e.g. pagination, API key, content-type). The [Glossary ](introduction/glossary/)page lists these terms and serves as your reference when needed.
+The API docs may include technical terms specific to their functionality (e.g. pagination, API key, content-type). The [Glossary ]()page lists these terms and serves as your reference when needed.
 
 ### 🌾 Integration Examples
 
-If you're familiar with REST API concepts and have your app set up, go to the [Examples ](introduction/examples.md)page for examples of integrating code snippets. Each endpoint in the docs offers code samples in various languages, using either SDKs or built-in libraries—choose what works best for you. You can also use the Postman collection and check the code snippets tab for auto-generated code in different languages.
+If you're familiar with REST API concepts and have your app set up, go to the [Examples ]()page for examples of integrating code snippets. Each endpoint in the docs offers code samples in various languages, using either SDKs or built-in libraries—choose what works best for you. You can also use the Postman collection and check the code snippets tab for auto-generated code in different languages.
 
 ---
 
 Need help? Visit our Support Center or contact us at support@furniturebros.com. Also visit our[ release notes ](https://docs.thefurniturebros.com/introduction/release-notes)to view our latest updates!
 
-Let’s get started! 🚀 Click [here ](api-endpoints/account.md#auth-login)to get your API key and start using the API!
+Let’s get started! 🚀 Click [here ]()to get your API key and start using the API!

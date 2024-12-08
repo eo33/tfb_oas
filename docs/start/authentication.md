@@ -12,7 +12,7 @@ You can pass the API key in the request headers as follows:
 
 - `Authorization`:`<API_TOKEN>`
 
-Where `<API_TOKEN>` is your unique API key provided by The Furniture Bros. Use the [Get an API key](../api-endpoints/account.md#auth-login) endpoint to get an API key.&#x20;
+Where `<API_TOKEN>` is your unique API key provided by The Furniture Bros. Use the [Get an API key]() endpoint to get an API key.&#x20;
 
 ### 👤 User Types
 
@@ -29,7 +29,7 @@ There are 3 levels of access (Authorization) to the endpoints:
 - **Endpoints Requiring Regular User Access**: Some endpoints require an authenticated regular user, and requests without an API key or with an invalid key will be rejected.
 - **Public Endpoints**: Certain endpoints do not require any authentication. These endpoints are publicly accessible without the need for an API key.
 
-Your API key contains the information on what type of access you have. To change your level of access, you can modify your account `admin` status using the [Edit User Details](../api-endpoints/account.md#users-edit) endpoint.&#x20;
+Your API key contains the information on what type of access you have. To change your level of access, you can modify your account `admin` status using the [Edit User Details]() endpoint.&#x20;
 
 ### 🔐 Examples of Authentication
 
@@ -91,4 +91,4 @@ For endpoints requiring admin access, regular users will receive a `403 Forbidde
 
 ### 🖨️ Regenerating API Keys
 
-Each key is valid for 36,000 seconds (10 hours). Once it expires, you'll need to request a new one.If you need to regenerate or revoke your API key, please use the [Get an API key](../api-endpoints/account.md#auth-login) endpoint to get a new API key. &#x20;
+Each key is valid for 36,000 seconds (10 hours). Once it expires, you'll need to request a new one.If you need to regenerate or revoke your API key, please use the [Get an API key]() endpoint to get a new API key. &#x20;

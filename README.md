@@ -10,6 +10,12 @@ To run the docs, simply run:
 mkdocs serve
 ```
 
+To deploy the docs, simply run:
+
+```
+mkdocs gh-deploy
+```
+
 ## Project layout
 
     mkdocs.yml                  # The configuration file.
@@ -32,3 +38,5 @@ mkdocs serve
 ## Plugins
 
 - render_swagger
+
+## Deployed site:
