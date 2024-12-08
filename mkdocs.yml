@@ -2,17 +2,46 @@ site_name: The Furniture Bros Docs
 theme:
   name: material
   language: en
+  navigation:
+    collapse: true
 
 plugins:
-  - search
-  - neoteroi.mkdocsoad:
-      use_pymdownx: true
+  - render_swagger:
+      allow_arbitrary_locations: true
 
-markdown_extensions:
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
+nav:
+  - Introduction: ./start/introduction.md
+  - Get Started: ./start/get-started.md
+  - Authentication: ./start/authentication.md
+  - Making a request: ./start/making-a-request.md
+  - Examples: ./start/examples.md
+  - Functionalities: ./start/functionalities.md
+  - Release Notes: ## Can be enhanced with awesome-pages
+      - Intro: ./start/release-notes/README.md
+      - 2024:
+          - 5-Dec-2024: ./start/release-notes/5-dec-2024.md
+      - 2023:
+          - 4-Dec-2023: ./start/release-notes/4-dec-2023.md
+          - 30-Nov-2023: ./start/release-notes/30-nov-2023.md
+          - 24-Nov-2023: ./start/release-notes/24-nov-2023.md
+          - 20-Nov-2023: ./start/release-notes/20-nov-2023.md
+          - 14-Nov-2023: ./start/release-notes/14-nov-2023.md
+          - 26-Oct-2023: ./start/release-notes/26-oct-2023.md
+          - 23-Oct-2023: ./start/release-notes/23-oct-2023.md
+          - 05-Oct-2023: ./start/release-notes/05-oct-2023.md
+  - Glossary:
+      - Intro: ./start/glossary/README.md
+      - API terms: ./start/glossary/api-terms.md
+      - Functionality: ./start/glossary/functionality-terms.md
+  - API Endpoints:
+      - Account: ./endpoints/Accounts.md
+      - Product: ./endpoints/Product.md
+      - Cart: ./endpoints/Cart.md
+      - Address: ./endpoints/Address.md
+      - Orders: ./endpoints/Orders.md
+      - Statistics: ./endpoints/Statistics.md
 
-extra_css:
-  - css/mkdocsoad.css
+extra:
+  navigation:
+    - icon: mdi-home
+    - icon: mdi-file-document
