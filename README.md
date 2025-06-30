@@ -4,6 +4,15 @@ This repo contains all the file for the documentation for TheFurnitureBros. The 
 
 To run OAS with MKDocs Materials, you need an OpenAPI plugin. Read more about it [here](https://github.com/bharel/mkdocs-render-swagger-plugin/).
 
+
+To install the dependencies, simply run:
+
+```
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-render-swagger-plugin
+```
+
 To run the docs, simply run:
 
 ```
@@ -43,7 +52,7 @@ mkdocs gh-deploy
 
 ## Deployed site:
 
-https://docs2.thefurniturebros.com/
+https://docs2.thefurniturebros.com/ (Current unavailable)
 
 Checkout the docs site build with Gitbook here:
 
