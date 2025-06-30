@@ -52,7 +52,7 @@ mkdocs gh-deploy
 
 ## Deployed site:
 
-https://docs2.thefurniturebros.com/ (Current unavailable)
+https://docs2.thefurniturebros.com/ (Currently unavailable)
 
 Checkout the docs site build with Gitbook here:
 
